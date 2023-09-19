@@ -14,17 +14,26 @@ cub3D is a school project that emulates the raycasting techniques used in classi
 
 ## Installation
 
-1. Check dependencies for the MLX42 graphics library (depends on your OS)
+1. If you have 42 homebrew replace this line in the makefile:
+```
+libmlx42.a -Iinclude -lglfw -L"/opt/homebrew/Cellar/glfw/3.3.8/lib/"
+```
+to this:
+```
+libmlx42.a -Iinclude -lglfw -L"/Users/$(USER)/.brew/opt/glfw/lib/"
+```
+
+2. Check dependencies for the MLX42 graphics library (depends on your OS)
 
 https://github.com/codam-coding-college/MLX42#installing-the-dependencies
 
-2. Clone the cub3D repository:
+3. Clone the cub3D repository:
 
 ```
 $ git clone https://github.com/eetukoljonen/cub3D.git ; cd cub3d
 ```
 
-3. Run `make`
+4. Run `make`
 
 -installs and builds the MLX42 and the program
 
