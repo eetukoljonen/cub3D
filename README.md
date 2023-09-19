@@ -51,5 +51,6 @@ $ ./cub3D test_maps/working_maps/simple_map.cub
 
 -create your own maps or modify the existing ones in the test_maps/working_maps directory with the provided textures.
 
-<img width="300" alt="Screen Shot 2023-09-18 at 12 37 32 PM" src="https://github.com/eetukoljonen/cub3D/assets/120648288/a9698589-612a-4194-afaa-cd01503690e4">        <img width="300" alt="Screen Shot 2023-09-18 at 12 36 59 PM" src="https://github.com/eetukoljonen/cub3D/assets/120648288/08d2a035-1803-48ca-bb31-26a257241ec7">
+![cub3d video](https://github.com/eetukoljonen/cub3D/assets/120648288/99c84f74-ff60-4ba8-b9f3-94a67326ddfe)
+
 
