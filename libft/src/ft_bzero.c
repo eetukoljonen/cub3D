@@ -6,7 +6,7 @@
 /*   By: ekoljone <ekoljone@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/25 15:49:14 by ekoljone          #+#    #+#             */
-/*   Updated: 2023/04/25 13:44:06 by ekoljone         ###   ########.fr       */
+/*   Updated: 2023/12/30 00:11:10 by ekoljone         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,5 +22,4 @@ void	ft_bzero(void *s, size_t n)
 		*p++ = 0;
 		n--;
 	}
-	return (*s);
 }
